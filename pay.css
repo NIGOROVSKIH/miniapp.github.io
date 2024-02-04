@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: black;
+    font-family: Poppins;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.input-container {
+    text-align: center;
+}
+
+.input-field {
+    width: 300px; /* Ширина поля ввода */
+    height: 50px; /* Высота поля ввода */
+    border: none; /* Убираем границы */
+    border-radius: 25px; /* Задаем полукруглую форму */
+    padding: 10px; /* Отступы внутри поля ввода */
+    text-align: center; /* Выравниваем текст по центру */
+    font-size: 12px; /* Размер шрифта */
+    background-color: rgba(255, 255, 255, 0.1); /* Цвет фона с прозрачностью */
+    color: white; /* Цвет текста */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.return-button {
+    position: fixed; /* Фиксированная позиция */
+    top: 20px; /* Отступ сверху */
+    left: 20px; /* Отступ слева */
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Изменяем курсор при наведении */
+    z-index: 9999; /* Перекрываем остальные элементы */
+}
+
+/* Стили для нового элемента отображения баланса */
+.balance-display {
+    text-align: center; /* Выравнивание текста по центру */
+    margin-bottom: 20px; /* Добавляем отступ снизу */
+    margin-top: 14  0px; /* Больший отступ сверху */
+    font-size: 18px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: hsl(144, 69%, 32%); /* Цвет текста */
+    width: 100%; /* Ширина элемента */
+    position: absolute; /* Фиксированная позиция */
+    top: 100px; /* Отступ сверху */
+    left: 0; /* Выравнивание по левому краю */
+}
+
+.submit-button {
+    width: 100px; /* Ширина кнопки */
+    height: 40px; /* Высота кнопки */
+    font-size: 16px; /* Размер шрифта */
+    background-color: hwb(0 7% 93%); /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста */
+    border: none; /* Убираем границы */
+    border-radius: 10px; /* Задаем скругленные углы */
+    cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
+
+
+
+
+
+
+
+
+
+
+

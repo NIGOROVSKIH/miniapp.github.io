@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    font-family: Poppins, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: linear-gradient(to bottom, hwb(0 6% 94%), hwb(0 9% 91%)); /* Градиент из двух цветов */
+}
+
+
+
+.boost-title {
+    font-size: 36px;
+    margin-top: 50px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+    
+#backButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Добавлен нижний отступ для контейнера с кнопками */
+}
+
+.buttons-container p {
+    font-size: 20px;
+}
+
+.buttons-container h6 {
+    font-size: 13px;
+}
+
+.center-block {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: none;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 110px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.center-block:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.speed-limit {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: none;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 110px;
+    margin-top: -10px;
+    border-radius: 10px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.speed-limit p {
+    font-size: 20px;
+}
+
+.speed-limit h6 {
+    font-size: 12px;
+    text-align: center;
+}
